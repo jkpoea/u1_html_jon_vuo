@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jonatan Vuong">
+        <meta name="description" content="Kontakta oss i Café Sleepless!">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Keywords" content="Café, Sleepless, Kaffe, Konkakt">
+        <link rel="stylesheet" href="styles.css">
+
+        <title>Café Sleepless kontaktsida</title>
+    </head>
+    <body>
+        <header class="col-12 header">
+                <div>
+                    <h1>Café Sleepless</h1>
+                </div>
+        </header>
+            <nav>
+                <div class="col-3 menu">
+                <ul>
+                    <li><a href="startsida.html">Hem</a></li>
+                    <li><a href="kontaktsida.html">Kontakta oss</a></li>
+                    <li><a href="galleri.html">Galleri</a></li>
+                    <li><a href="valfri.html">Hemlig</a></li>
+                </ul>
+                </div>
+            </nav>
+            <div id="background">
+                <img src="media/Background.jpg" alt="Cafe">
+            </div>
+        <section>
+            <form id="formulär" action="mailto:dummy@exmaple.ord" method="GET">
+                <p>Name: <input required="required" type="text" name="name" maxlength="45"></p>
+                <p>Email: <input required="required" type="email" name="email" maxlength="45"></p>
+                <label>Ämne:</label> <br>
+                <textarea required name="comments" cols="30" rows="10">Skriv vad du vill säga!</textarea><br>
+                <input type="submit" name="submit" value="Skicka in!">
+            </form>
+        </section>
+        <footer>
+            <div id="fot">
+            <p id="left-foot">Framtidsvägen 10A, 352 57 Växjö<br>0132-11413254</p>
+            <p id="middle-foot">Sociala medier<br><a href="https://sv-se.facebook.com"><img id="face" src="media/facebook.png" alt="facebook"></a><a href="https://www.instagram.com/?hl=sv"><img id="insta" src="media/insta.png" alt="Instagram"></a></p>
+            <p>Karta<br><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2181.4159373967627!2d14.822678415973664!3d56.85596168086283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465723d921867993%3A0x583784e5780716a8!2zRnJhbXRpZHN2w6RnZW4gMTBBLCAzNTIgNTcgVsOkeGrDtg!5e0!3m2!1ssv!2sse!4v1571316391524!5m2!1ssv!2sse" width="120" height="105"></iframe></p>
+            </div>
+        </footer>
+    </body>
+
+</html>
